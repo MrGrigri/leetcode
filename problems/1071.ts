@@ -13,9 +13,6 @@ function gcdOfStrings(str1: string, str2: string): string {
   const divisor = gcd(str1Length, str2Length);
   const word = smallest.substring(0, divisor);
 
-  word;
-  divisor;
-
   if (
     word.repeat(largest.length / divisor) === largest &&
     word.repeat(smallest.length / divisor) === smallest
@@ -26,10 +23,10 @@ function gcdOfStrings(str1: string, str2: string): string {
   return '';
 }
 
-equals(gcdOfStrings('ABCABC', 'ABC'), 'ABC'); //?
-equals(gcdOfStrings('ABC', 'ABCABC'), 'ABC'); //?
-equals(gcdOfStrings('ABABAB', 'ABAB'), 'AB'); //?
-equals(gcdOfStrings('ABCDEF', 'ABC'), ''); //?
-equals(gcdOfStrings('LEET', 'CODE'), ''); //?
-equals(gcdOfStrings('LEE', 'CODE'), ''); //?
-equals(gcdOfStrings('AAAAAAAAA', 'AAACCC'), ''); //?
+equals(gcdOfStrings('ABCABC', 'ABC'), 'ABC');
+equals(gcdOfStrings('ABC', 'ABCABC'), 'ABC');
+equals(gcdOfStrings('ABABAB', 'ABAB'), 'AB');
+equals(gcdOfStrings('ABCDEF', 'ABC'), '');
+equals(gcdOfStrings('LEET', 'CODE'), '');
+equals(gcdOfStrings('LEE', 'CODE'), '');
+equals(gcdOfStrings('AAAAAAAAA', 'AAACCC'), '');
