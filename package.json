@@ -15,5 +15,9 @@
     "@babel/core": "^7.28.5",
     "@babel/plugin-syntax-import-assertions": "^7.27.1",
     "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-typescript": "^7.28.5",
+    "jsdom": "^27.1.0"
   }
 }
