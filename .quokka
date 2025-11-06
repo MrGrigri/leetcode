@@ -1,6 +1,5 @@
 {
   "babel": true,
-  "showValueOnSelection": true,
   "plugins": [
     "jsdom-quokka-plugin"
   ]
