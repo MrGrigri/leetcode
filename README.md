@@ -1,6 +1,6 @@
 # LeetCode
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/mrgrigri?theme=auto&font=&ext=heatmap)](https://leetcode.com/u/mrgrigri/)
+<div style="min-block-size: 320px;">[![LeetCode Stats](https://leetcard.jacoblin.cool/mrgrigri?theme=auto&font=&ext=heatmap)](https://leetcode.com/u/mrgrigri/)</div>
 
 This is my personal repo to track my LeetCode[^1] progress[^2]. Please don't judge me too harshly as I am not a backend developer. All of my work has been frontend development and my philosophy is: "If you have to worry about runtime and memory usage, you should call an API!".
 
