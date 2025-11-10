@@ -1,3 +1,4 @@
+/** @deprecated - Use Vitest instead */
 export const equals = (condition1: any, condition2: any): boolean => {
   let passed = false;
   if (Array.isArray(condition1)) {
